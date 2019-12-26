@@ -1,0 +1,88 @@
+body
+{
+background-color: #191919;
+margin: 20px;
+}
+table
+{
+color: #CBCBCB;
+}
+.topnav 
+{
+    text-align:center;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 10px 10px 10px 10px;
+}
+.topnav a 
+{
+    float: left;
+    color:#FBFBFB;
+    text-align: justify;
+    padding: 18px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+    border-radius: 10%;
+}
+.topnav a:hover
+ {
+    background-color: #505050 ;
+    color: #CD8C09;
+ }
+
+.headlineright
+ {
+   
+    text-align: right;
+ }
+ .search {
+    width: 25%;
+    position: relative;
+    display: flex;
+    float: right;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 2px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 22px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 2px solid black;
+    border-left: none;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+    
+    
+  }
+ img
+ {
+    width:100%;
+    margin-top:30px ;
+    border-radius: 5em;
+    border: 3px solid rgb(100, 100, 100);
+ }
+ .secondpart img
+ {
+   border-radius: 50%;
+ }
+.secondpart1
+{
+ text-align: center;
+}
