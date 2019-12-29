@@ -134,11 +134,13 @@ footer p
 {
     color: #FBFBFB ;
 }
+
 #p1
 {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 footer img
 {
     
