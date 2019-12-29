@@ -128,6 +128,7 @@ header
 {
     background-color: #505050;
     color: #FE9900 ;
+
 }
 
 footer p
@@ -143,8 +144,14 @@ footer p
 
 footer img
 {
-    
+    transition: transform .2s;
     float: right;
     margin: 2px;
     
+}
+footer img:hover
+{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
 }
