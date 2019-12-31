@@ -6,6 +6,10 @@
         </title>
         <link rel="stylesheet" type="text/css" href="CssHomePage.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
     </head>
     <body>
         <header>
@@ -14,9 +18,9 @@
                     <td id="header1">     
                         Pre Photo  
                     </td>
-                    <td rowspan="2" style="text-align: right;">
-                        Tel:+383124759 | Mail:info@prephoto.com
-                        <div class="search">
+                    <td rowspan="2" style="text-align:right; vertical-align: bottom;">
+                        Tel:(00)+383-124-7592 | Mail: info@prephoto.com
+                        <div>
                             <input type="text" class="searchterm" placeholder="SEARCH TERM HERE...">
                             <button type="submit" class="searchbutton">
                                 <i class="fa fa-search"></i>
@@ -25,13 +29,10 @@
                     </td>
                  </tr>
                  <tr>
-                     <td>
-                        <small>
+                     <td style="font-family: Atma; padding-left: 5px; font-size: 20px;">
                         International Competition of Photography
-                        </small>
                      </td>
-                     
-                 </tr>
+                </tr>
             </table>
         </header>
         
@@ -49,8 +50,36 @@
                 <li><a href="#longlinktext">LONG LINK TEXT </a></li>
             </ul>
         </div>
-        <img src="prefoto.jpg" alt="International Competition of Photography" id="prefotoimg">
+        <div id="prefotoimg">
+            <script>
+                var i = 0;
+                var images = [];
+                var time = 1500;
         
+                images[0] = 'Prephoto2.jpg';
+                images[1] = 'Prephoto3.jpg';
+                images[2] = 'Prephoto4.jpg';
+                images[3] = 'Prephoto5.jpg';
+            
+                function changeImg(){
+                    document.slide.src = images[i];
+            
+                    if(i < images.length - 1){
+                        i++;
+                    } else {
+                        i = 0;
+                    }
+            
+                    setTimeout("changeImg()", time);
+                }
+            
+                window.onload = changeImg;
+            
+            </script>
+            
+            <img name="slide" width="100%" height="400">
+            
+        </div>
         <hr>
         
         <div id="secondpart">
@@ -111,8 +140,8 @@
         <div>
            <table id="secondpart1">
             <tr>
-                <td style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger;">
-                    &nbsp;&nbsp;Want to know more about the competition ?
+                <td style="font-size: 40px;">
+                    Want to know more about the competition ?
                 </td>
                 <td rowspan="2" style="text-align: right;">
                     <a href="#" id="button">CONTACT US TODAY</a>
@@ -120,7 +149,7 @@
             </tr>
             <tr>
                 <td>
-                    &nbsp;&nbsp;&nbsp;From who prices are certified ?
+                    From who prices are certified ?
                 </td>
             </tr>
            </table>
@@ -146,7 +175,7 @@
             <img src="facebook_32.png"/>
             </a>
             
-            <p id="p1">&copy; 2013 - All Rights Reserved - PRE PHOTO </p>
+            <p id="p1">&copy; 2013 / All Rights Reserved - PRE PHOTO </p>
           
         </footer>
         
