@@ -1,0 +1,104 @@
+#nav
+{   
+    margin: 20px 0 20px 0;
+    text-align: start;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+#nav li
+{
+    display: inline;
+    padding: 4px;
+}
+
+#nav li a
+{
+    color:#FBFBFB;
+    text-decoration:none;
+    font-size: 17px;
+    padding: 18px 16px;
+    border-radius: 15%;
+}
+
+#nav li a:hover
+{
+    background-color: #505050 ;
+    color: #CD8C09;
+}
+#b1{
+    background-color:rgb(231, 224, 224)
+    
+    }
+    
+    .p2{
+        margin: 10px 100px 10px 100px;
+        background-color: white;
+        line-height: 1.3em;
+        font-size: 14px;
+        margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:  0px solid #000; 
+    text-align: left;
+    mask-border-width: 1px;
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+    
+    }
+    .p1{
+        font-size: 18px;
+        text-align: left;
+        font-weight: 20;    
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline blue;
+    }
+    #C1{
+        text-align: justify;
+        text-indent: 30px;
+        margin: 10px;
+    }
+    #C2{
+        margin-top: -30px;
+        width: 2em;
+    color: rgb(52, 52, 173);
+    
+    }
+    #B1{
+        font-size: 70px;
+        font-weight: 50px;
+        text-align: center;
+        margin:0px 10px 0px 10px;
+    }
+    #C3{
+        text-align: justify;
+        text-indent: 30px;
+        margin: 10px;
+    
+    }
+    .p3{
+        font-size: 18px;
+        text-align: left;
+        font-weight: 20;    
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #C5{
+        margin-top: -25px;
+        width: 2em;
+    color: rgb(52, 52, 173);
+    }
+    .p4{
+        margin: 10px 100px 10px 100px;
+        background-color: white;
+        line-height: 1.3em;
+        font-size: 14px;
+        margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:  0px solid #000; 
+    text-align: left;
+    mask-border-width: 1px;
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+    }
