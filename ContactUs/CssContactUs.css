@@ -1,0 +1,96 @@
+body
+{
+    background-color: #191919;
+}
+#nav
+{   
+    margin: 20px 0 20px 0;
+    text-align: start;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+#nav li
+{
+    display: inline;
+    padding: 4px;
+}
+
+#nav li a
+{
+    color:#FBFBFB;
+    text-decoration:none;
+    font-size: 17px;
+    padding: 18px 16px;
+    border-radius: 15%;
+}
+
+#nav li a:hover
+{
+    background-color: #505050 ;
+    color: #CD8C09;
+}
+#contact{
+    color : #CBCBCB;
+    font-size: 30px;
+    padding-left : 20px;
+    display: inline-block;
+    }
+    
+    .container {
+        max-width:700px;
+        width:100%;
+        margin:0 auto;
+        position:relative;
+         background-color: #FE9900; 
+        margin-top: 40px;
+        border: solid 2px white;
+        border-radius: 10%;
+        font-family:'Times New Roman', Times, serif;
+        
+        
+    }
+    
+    #wh{
+        width: 350px;
+        height: 30px;
+    }
+    
+    
+    
+    fieldset {
+        border: medium none !important;
+        margin: 10px 10px 10px 30px;
+        min-width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
+        width: 350px;
+        width: 100%;
+    }
+    
+    
+    #message1{
+        width: 400px;
+        height: 100px;
+    }
+    #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+        -webkit-transition:border-color 0.5s ease-in-out;
+        -moz-transition:border-color 0.5s ease-in-out;
+        transition:border-color 0.5s ease-in-out;
+        border:1px solid #AAA;
+    }
+    #qcontact{
+    text-align:center ;
+    }
+    #contact bytton[type="submit"]{
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:black;
+    color: white;
+    margin : 0 0 5px;
+    padding: 10px;
+    font-size:15px;
+    }
+    
